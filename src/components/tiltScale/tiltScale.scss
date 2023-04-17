@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Great+Vibes&display=swap');
+
+.card_container {
+  margin: 1rem;
+}
+
+.tilt-scale {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 500px;
+  font-size: 30px;
+  color: white;
+  background-color: #1b1b1b;
+
+  .details_holder {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    filter: drop-shadow(2px 4px 6px black);
+
+    h1 {
+      font-family: 'Great Vibes', cursive;
+      margin: 2px;
+    }
+
+    p {
+      font-family: 'DynaPuff', cursive;
+      font-size: 18pt;
+      overflow-y: auto;
+      padding: 5px;
+    }
+  }
+
+  @media (max-width:400px) {
+    width: 90vw;
+    height: 500px;
+  }
+}

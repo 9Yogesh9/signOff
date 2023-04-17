@@ -1,0 +1,16 @@
+#foot {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(138, 138, 138, 0.26);
+  color: #70707e;
+  text-shadow: 0 0 9px black;
+
+  a {
+    text-decoration: none;
+    color: #70707e;
+    text-shadow: 0 0 9px black;
+  }
+}

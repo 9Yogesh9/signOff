@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: rgb(37, 37, 37); */
+  /* background-image: url(https://images.pexels.com/photos/1319750/pexels-photo-1319750.jpeg?cs=srgb&dl=pexels-pok-rie-1319750.jpg&fm=jpg&w=1280&h=853); */
+  background-image: url(./assets/pexels-pok-rie-1319750.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tiles {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.head_highlight {
+  color: white;
+  font-family: "Amatic SC", cursive;
+  font-size: 4rem;
+}
