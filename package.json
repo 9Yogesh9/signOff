@@ -1,7 +1,7 @@
 {
   "name": "tribute",
   "version": "0.1.0",
-  "homepage": "https://9yogesh9.github.io/tribute_infy",
+  "homepage": "https://9yogesh9.github.io/signOff",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
